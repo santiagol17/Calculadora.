@@ -1,0 +1,35 @@
+table{
+background-color: #fff;	 
+border-color: black;
+}
+input  {
+        font: bold 25px Helvetica, Sans-Serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #B7B7B7;
+    text-shadow: 0px 1px 2px #62C2F9;
+       }
+
+.btn {
+	padding: 5px 23px;
+}
+.boton	{
+	padding: 5px 26px;
+	background-color: #079D1D;
+	border-bottom: 0;
+}
+.botn {
+	padding: 5px 25px;
+	background-color: #079D1D;
+	border-bottom: 0;
+}
+.bton {
+	padding: 5px 11px;
+	background-color: #079D1D;
+	border-bottom: 0;
+}
+.btun {
+	padding: 5px 29px;
+	border-bottom: 0;
+	}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculadora html</title>
+	
+</head>
+<body>
+	
+	<form name="calculadora">
+<table border="1" width="100" align="center">
+	<tr>
+		<td colspan="4"><input type="text" name="pantalla"></td>
+	</tr>
+	<tr>
+		
+		<td><input  class="btn" type="button" value="3&#8730" onclick="pantalla.value+='&#8730' "></td>
+		<td><input  class="btn" type="button" value="&#8730" onclick="pantalla.value='&#8730'"></td>
+		<td><input  class="bton" type="button" value="c" onclick="pantalla.value=''"></td>
+		<td><input  class="btn" type="button" value="%" onclick="pantalla.value+='%' "></td>
+	</tr>
+	<tr>
+		<td><input class="btun" type="button" value="7" onclick="pantalla.value+='7' "></td>
+		<td><input  class="btn" type="button" value="8" onclick="pantalla.value+='8' "></td>
+		<td><input  class="btn" type="button" value="9" onclick="pantalla.value+='9' "></td>
+		<td><input  class="btn" type="button" value="+" onclick="pantalla.value+='+' "></td>
+	</tr>
+	<tr>
+		<td><input  class="btun" type="button" value="4" onclick="pantalla.value+='4' "></td>
+		<td><input  class="btn" type="button" value="5" onclick="pantalla.value+='5' "></td>
+		<td><input  class="btn" type="button" value="6" onclick="pantalla.value+='6' "></td>
+		<td><input  class="boton" type="button" value="-" onclick="pantalla.value+='-' "></td>
+	</tr>
+	<tr>
+		<td><input  class="btun" type="button" value="1" onclick="pantalla.value+='1' "></td>
+		<td><input  class="btn" type="button" value="2" onclick="pantalla.value+='2' "></td>
+		<td><input  class="btn" type="button" value="3" onclick="pantalla.value+='3' "></td>
+		<td><input  class="botn" type="button" value="*" onclick="pantalla.value+='*' "></td>
+	</tr>
+	<tr>
+		<td><input style="padding: 5px 18px;" class="bton" type="button" value="ac" onclick="pantalla.value=''"></td>
+		<td><input  class="btn" type="button" value="0" onclick="pantalla.value+='0' "></td>
+		<td><input  class="btn" type="button" value="=" onclick="pantalla.value=eval(pantalla.value)"></td>
+		<td><input  class="boton" type="button" value="/" onclick="pantalla.value+='/' "></td>
+	</tr>
+</table>
+</form>
+
+</body>
+
+</html>
